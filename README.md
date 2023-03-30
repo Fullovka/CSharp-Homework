@@ -23,11 +23,6 @@ namespace WindowsFormsApplication
             textBox1.Text = string.Join(" ", arr.Select(x => x.ToString()));
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             // Сортировка массива с помощью метода OrderBy из Linq
